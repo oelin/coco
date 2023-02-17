@@ -1,2 +1,2 @@
-# coco
+# Coco
 A library for creating self-extracting archives in Python.
