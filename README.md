@@ -1,3 +1,7 @@
+<div align=center>
+  <img src='https://github.com/oelin/coco/blob/main/images/snake.svg'>
+</div>
+
 # Coco
 
 A library for creating self-extracting archives in Python.
