@@ -10,8 +10,8 @@ Decoder = Callable[None, Callable]
 
 def encode(data: Data, decoder: Decoder) -> Data:
 
-        function = dis.Bytecode(decoder)
-        function = marshal.dumps(decoder.codeobj)
+        decoder = dis.Bytecode(decoder)
+        decoder = marshal.dumps(decoder.codeobj)
 
         return pickle.dumps((data, decoder))
 
