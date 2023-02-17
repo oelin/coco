@@ -1,5 +1,5 @@
 <div align=center>
-  <img src='https://github.com/oelin/coco/blob/main/images/snake.svg'>
+  <img src='https://github.com/oelin/coco/blob/main/images/snake.svg' width=60%>
 </div>
 
 # Coco
