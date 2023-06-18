@@ -22,3 +22,9 @@ def decode(data: Data) -> Data:
         decoder = marshal.loads(decoder)
 
         return eval(decoder)(data)
+
+
+def decoder(f):
+        def _():
+                return f
+        return _
