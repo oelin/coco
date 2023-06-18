@@ -27,18 +27,16 @@ One risk of SEAs is that they can essentially execute arbitrary code. The risk a
 Create a decoder/extractor.
 
 ```py
-def decoder():
-  def decode(data):
-    # Decompression logic...
-    
-  return decode
+import coco
+
+@coco.decoder
+def decode(data):
+  # Decompression logic...
 ```
 
 Create a self-extracting archive.
 
 ```py
-import coco
-
 archive = coco.encode(data, decoder)
 ```
 
